@@ -20,10 +20,10 @@
       <li><a href="product.html">Products</a></li>
       <li><a href="service.html">Services</a></li>
       <li><a href="order.html">Order</a></li>
-      <li><a href="">About Us</a>
+      <li><a href="aboutus.html">About Us</a>
       	<ul>
-      		<li><a href="contact.html">Contact Us !</a></li>
-      		<li><a href="">Information</a></li>
+   		  <li><a href="contact.html">Contact Us !</a></li>
+      		<li><a href="feedback.html">Customer feedback</a></li>
       		<li><a href="faq.html">FAQ</a></li>
     	</ul>
       </li>
@@ -38,9 +38,25 @@
     <div class="BodyFont"><h1>KIDS FASHION STORE
     </h1>
       <p>Our hot item in this month:</p>
-      <p><img src="" alt="hotitem" name="hotitem" width="250" height="250" id="hotitem" /></p>
-      <p>&nbsp;</p>
-      <h2>Upcoming Event</h2>
+      <script language="JavaScript">
+var i = 0;
+var path = new Array();
+ 
+// LIST OF IMAGES
+path[0] = "image/imgaecp1406/2-piece_with_hood.jpg";
+path[1] = "image/imgaecp1406/giraffe_cotton_shirt.jpg";
+path[2] = "image/imgaecp1406/MVP_kids_shirt.jpg";
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+</script>
+<img height="300" name="slide" src="image/imgaecp1406/2-piece_with_hood.jpg" width="300" />
+<h2>Upcoming Event</h2>
       <table border="2" align="center" cellpadding="0" cellspacing="0">
         <tr>
           <td width="308" valign="top"><p>Fashion    show for new designers</p></td>
