@@ -31,12 +31,8 @@
     	</ul>
       </li>
     </ul>
-    <ul>
-    <center>
-    <input name="" type="text" />
-    <button name="button" type="button" >Search</button>
-    </center>
-    </ul>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
     <!-- TemplateBeginEditable name="EditRegion1" -->
     <p>&nbsp;</p>
     <p>&nbsp;</p>
