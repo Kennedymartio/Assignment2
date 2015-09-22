@@ -5,7 +5,7 @@
 <meta name="description" content="Frias">
 <meta name="keywords" content="Kids clothes,Boys shirt,Boys pants">
 <meta name="author" content="Michael Andhika,Kennedy Mario,Benyamin Wijaya" />
-<title>FRIAS | Feedback</title>
+<title>FRIAS</title>
 <link href="style/GlobalStyle.css" rel="stylesheet" type="text/css" />
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
@@ -14,7 +14,8 @@
 <body>
 <div class="Background">
     <div class="BannerSection">
-      <p><img src="image/logo.png" width="300" height="200" alt="logofrias" /></p>
+      <p>
+      <img src="image/logo.png" width="300" height="200" alt="logofrias" /></p>
     </div>
     <div id="background">
     <ul id="MenuBar1" class="MenuBarHorizontal">
@@ -22,7 +23,6 @@
       <li><a href="cafe.html">Cafe</a></li>
       <li><a href="product.html">Products</a></li>
       <li><a href="service.html">Services</a></li>
-      <li><a href="order.html">Order</a></li>
       <li><a href="aboutus.html">About Us</a>
       	<ul>
    		  <li><a href="contact.html">Contact Us !</a></li>
@@ -43,16 +43,27 @@
       <h1>Feedback form</h1>
       <p>Please rate our service (from range 1 to 5)</p>
       <form id="form1" name="form1" method="post" action="">
-        <p>1
-          <input type="checkbox" name="rate" id="rate" />
-          <label for="rate">2</label>
-          <input type="checkbox" name="rate2" id="rate" />
-          <label for="rate2">3</label>
-          <input type="checkbox" name="rate3" id="rate2" />
-          <label for="rate3">4</label>
-          <input type="checkbox" name="rate4" id="rate3" />
-          <label for="rate4">5</label>
-          <input type="checkbox" name="rate5" id="rate4" />
+        <p>
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" />
+            1</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1" />
+            2</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2" />
+            3</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3" />
+            4</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3" />
+            5</label>
+          <br />
         </p>
       </form>
       <p>If you have any suggestion for our futher improvement please fill in this form, thank you.</p>
